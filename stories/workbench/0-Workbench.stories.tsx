@@ -36,8 +36,10 @@ export const EmbeddedWorkbench = () => {
             <div
                 style={{
                     position: 'relative',
-                    width: '100%',
-                    height: 'calc(100% - 40px)',
+                    display: 'block',
+                    margin: 'auto',
+                    width: '80vw',
+                    height: '80vh',
                 }}
             >
                 {moInstance.render(<Workbench />)}
